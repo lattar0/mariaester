@@ -1,29 +1,43 @@
 .homeCard {
   display: flex;
   flex-direction: column;
-  margin-top: 4rem;
-  margin-left: 17rem;
-  margin-bottom: 5rem;
-  width: 51rem;
-  height: 25.7rem;
+  width: 55.1875rem; 
+  height: 26.75rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: #444444;
 
   .divTitle {
-    p {
-      padding-top: 0.6rem;
+    p { 
+      font-size: 24px;
+      line-height: 33px;
     }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     background-color: #0a0708;
     color: #ffffff;
     text-align: center;
 
-    .cardTitle {
-      font-size: 2rem;
-    }
+    height: 5.625rem;
+    padding: 1.1875rem;
   }
 
   .columns {
     display: flex;
+    flex-direction: row;
+    margin-left: 2.4375rem;
+    margin-top: 1.375rem;
   }
 
-  background-color: #444444;
+  .columnsSuperior {
+    width: 0;
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.4375rem;
+  }
 }

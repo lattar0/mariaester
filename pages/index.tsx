@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import ClassRoom from "../components/ClassRoom";
+import Footer from "../components/Footer";
 import HomeCard from "../components/HomeCard";
 
 import Navbar from "../components/Navbar";
@@ -9,6 +9,7 @@ const Home: NextPage = () => {
     <div>
       <Navbar />
       <HomeCard />
+      <Footer />
     </div>
   );
 };
