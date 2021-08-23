@@ -1,0 +1,29 @@
+.homeCard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-left: 17rem;
+  margin-bottom: 5rem;
+  width: 51rem;
+  height: 25.7rem;
+
+  .divTitle {
+    p {
+      padding-top: 0.6rem;
+    }
+
+    background-color: #0a0708;
+    color: #ffffff;
+    text-align: center;
+
+    .cardTitle {
+      font-size: 2rem;
+    }
+  }
+
+  .columns {
+    display: flex;
+  }
+
+  background-color: #444444;
+}
