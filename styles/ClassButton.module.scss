@@ -1,0 +1,26 @@
+.classButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 5.9rem;
+    height: 2.4rem;
+  
+    margin-right: 1.1875rem;
+    margin-bottom: 1rem;
+  
+    background-color: #b1b1b1;
+    color: #444444;
+  
+    font-size: 20px;
+  
+    cursor: pointer;
+    border: 0;
+    border-radius: 6px;
+    transition: 0.2s;
+  
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  

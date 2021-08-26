@@ -1,0 +1,32 @@
+{
+  "salas": {
+    "6": {
+      "a": {
+        "sas": "sasaa",
+        "sadas": "sdasada"
+      },
+      "b": {
+        "sas": "sasaa",
+        "sadas": "sdaas"
+      },
+      "apostilas": {
+        "curriculo": "apito",
+        "apostila": "sad?"
+      }
+    },
+    "7": {
+      "a": {
+        "sas": "sasaa",
+        "sadas": "sdasada"
+      },
+      "b": {
+        "sas": "sasaa",
+        "sadas": "sdaas"
+      },
+      "apostilas": {
+        "curriculo": "apito",
+        "apostila": "sada"
+      }
+    }
+  }
+}
