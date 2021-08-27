@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
         <script
           src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}&callback=initMap&libraries=&v=weekly&channel=2`}
-          async
+          defer
         ></script>
         </Head>
         <body>
